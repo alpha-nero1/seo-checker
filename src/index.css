@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  background-color: white;
+  color: #333;
+  width: 100%;
+}
+
+.center-dialog {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 2rem 1rem;
+}
