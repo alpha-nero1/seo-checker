@@ -53,7 +53,7 @@ function App() {
             <div key={`page-${i}`}>
               <h3>Page {i + 1}</h3>
               {res.map((result, j) => (
-                <p key={`page-${i}-${j}`}>Found at position {result[1]}</p>
+                <p key={`page-${i}-${j}`}>Found at position {result[1] + 1}</p>
               ))}
             </div>
           ))}
